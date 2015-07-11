@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="filter">
+      <UniqueIdentifier>{49d6f847-5e6b-457e-be91-713a08254334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{04c434d0-7de9-48d9-b073-fa8e84e2136c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_handler.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="core_helper.h">
+      <Filter>server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="filter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="filter_server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="filter_handler.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="filter.inl">
+      <Filter>filter</Filter>
+    </None>
+  </ItemGroup>
+</Project>

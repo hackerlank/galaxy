@@ -1,0 +1,12 @@
+{"itemID":13541,
+"itemQuality":2,
+"itemStack":9999,
+"crystal":{"equipLimit":51,
+"effectTimes":1.6},
+"chip":{"mixType":0,
+"isCrystal":7,
+"mixID":13542,
+"needNum":2},
+"merchandise":{"buyPrice":-1,
+"buyGold":-1,
+"salePrice":-1}}

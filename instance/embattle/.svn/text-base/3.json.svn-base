@@ -1,0 +1,32 @@
+{
+    "rawID": 3,
+	"name":"T字锤形阵",
+    "levelLimit": 19,
+    "holesConfig": [
+        {
+            "holeIndex": 0,
+            "holeOpen": 5,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 1,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 2,
+            "holeOpen": 111,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 4,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 7,
+            "holeOpen": 209,
+	"levelLimit":0
+        }
+    ]
+}

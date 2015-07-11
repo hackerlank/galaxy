@@ -1,0 +1,32 @@
+{
+    "rawID": 4,
+	"name":"北斗天勾阵",
+    "levelLimit": 28,
+    "holesConfig": [
+        {
+            "holeIndex": 1,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 2,
+            "holeOpen": 111,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 3,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 5,
+            "holeOpen": 5,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 6,
+            "holeOpen": 209,
+	"levelLimit":0
+        }
+    ]
+}

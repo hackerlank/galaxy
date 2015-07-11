@@ -1,0 +1,32 @@
+{
+    "rawID": 1,
+	"name":"十字长弓阵",
+    "levelLimit": 0,
+    "holesConfig": [
+        {
+            "holeIndex": 1,
+            "holeOpen": 5,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 3,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 4,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 5,
+            "holeOpen": 111,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 7,
+            "holeOpen": 209,
+	"levelLimit":0
+        }
+    ]
+}

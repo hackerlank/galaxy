@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="common_protocol.h" />
+    <ClInclude Include="gate_account_protocol.h" />
+    <ClInclude Include="protocol.h" />
+    <ClInclude Include="gate_game_protocol.h" />
+    <ClInclude Include="game_log_protocol.h" />
+  </ItemGroup>
+</Project>

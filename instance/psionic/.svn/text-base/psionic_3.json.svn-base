@@ -1,0 +1,17 @@
+{
+	"id":3,
+	"probability":0.06,
+	"event":
+	[
+		{
+			"reward_eq":-1,
+			"reward_jungong":360,
+			"event_chance":0.5
+		},
+		{
+			"reward_eq":-1,
+			"reward_jungong":360,
+			"event_chance":0.5
+		}
+	]
+}

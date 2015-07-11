@@ -1,0 +1,967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="server">
+      <UniqueIdentifier>{c0da9bf8-1800-4d27-a620-aba403c94332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{83f9cb0c-dcf5-4e92-b8e6-595520a25b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{5ba1d910-9ab8-4a7d-a332-0a5086b6311f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\playerData">
+      <UniqueIdentifier>{a3cf1441-0cc7-4958-93ee-03a25cfb809d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{d738f6fd-01a4-4ee5-8965-044270587ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin">
+      <UniqueIdentifier>{fb6cad3e-0f69-448c-b943-57c6c0a11f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\embattle_system">
+      <UniqueIdentifier>{bdec5b75-19c4-4d22-b41e-d8d7437d8062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\world_system">
+      <UniqueIdentifier>{7e740d35-392e-4864-84d8-4ec5d0cea6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\chat_system">
+      <UniqueIdentifier>{89b4ec05-0190-4b36-9f57-6400fc8394f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\item_system">
+      <UniqueIdentifier>{7cd3cc96-327c-4335-9719-1030386c5beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\action_system">
+      <UniqueIdentifier>{c6731612-98a9-4687-97e2-13c612e2c2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\season_system">
+      <UniqueIdentifier>{6de72ad6-c685-438b-a746-bd0b2d945831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng">
+      <UniqueIdentifier>{85089853-88d5-4d0a-bcbe-8546e410ee70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\vip_system">
+      <UniqueIdentifier>{ced423e6-52e2-45d4-853e-74620fe5af9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\office_system">
+      <UniqueIdentifier>{d6837080-ef9e-4b69-817c-16d9da2cb108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Zhenwei">
+      <UniqueIdentifier>{2ff8ddb3-ced5-4479-a849-6225ef5397bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Zhenwei\workshop">
+      <UniqueIdentifier>{e282f084-28e1-460f-9146-171b6a1f530d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\junling_system">
+      <UniqueIdentifier>{ed565a87-8536-48c4-b35f-7f96593fc59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\pilot_mgr">
+      <UniqueIdentifier>{1f21839e-634f-4108-8fc3-c4dcf765c1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Zhenwei\science">
+      <UniqueIdentifier>{dd2f6c9a-aed1-493a-9581-22d399327e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\guild_system">
+      <UniqueIdentifier>{04a534a5-c1d9-4b4f-8e68-ec6bf041fa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\war_story">
+      <UniqueIdentifier>{5ae3bea3-0f2f-4d01-95ce-3e97b7c092f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\study_system">
+      <UniqueIdentifier>{a5e69daf-7cfa-4575-af25-ec37fb5ba1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\record_system">
+      <UniqueIdentifier>{33797120-9711-410f-8a97-d961a0de0ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\battle_system">
+      <UniqueIdentifier>{29223b9c-26c7-487b-9353-f1f0ff10cad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen">
+      <UniqueIdentifier>{86da498a-5f51-46a4-840f-391361215423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\email_system">
+      <UniqueIdentifier>{35393e19-888f-4691-9b26-197e9f108eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\sign_system">
+      <UniqueIdentifier>{e007d523-fe6b-4f22-8eaf-93f85bcbeaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\shop_system">
+      <UniqueIdentifier>{c38e258f-bc64-4d75-b482-d526bcf11807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuSongQing">
+      <UniqueIdentifier>{42cceeb2-9ae8-4c43-9cd2-2402df63313b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\arena_system">
+      <UniqueIdentifier>{443e2e9a-28c1-4160-ac17-f9a9c0b21aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\gm_tools_relative">
+      <UniqueIdentifier>{cb9ba94c-5c38-43cf-9684-1f46d119f8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\ruler_system">
+      <UniqueIdentifier>{f9e300ab-e882-414e-93db-cbcc7fb1dfa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuSongQing\hero_inherit_system">
+      <UniqueIdentifier>{6639760a-873b-4de8-8420-39f1ebf7e499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\strategy_system">
+      <UniqueIdentifier>{0c2c412b-0cff-42df-a277-4654c222a79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\task_system">
+      <UniqueIdentifier>{467f2472-2aa2-4bdd-8fe5-896b29e106ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\mine_resource_system">
+      <UniqueIdentifier>{83c8b971-feb4-4f6f-a929-76ec6a40bdd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\translate_system">
+      <UniqueIdentifier>{9bd319e1-e867-44b9-8bcd-b25d8f26f2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\guild_battle_system">
+      <UniqueIdentifier>{0db962b3-9aa3-49c8-94c6-155d2e6dec05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\kingdom_system">
+      <UniqueIdentifier>{b784e807-717c-48bc-96f3-a7b0b66a37bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\reportShare">
+      <UniqueIdentifier>{198a9b3d-c010-4b69-b909-f2c3e08823df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuSongQing\interplanetary_exploration_system">
+      <UniqueIdentifier>{8747cf5c-a6df-4ab2-8449-9e5ac5445588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuSongQing\onlineaward_system">
+      <UniqueIdentifier>{fae5dbdc-824b-45a6-baf3-f1031eab2b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\ally_system">
+      <UniqueIdentifier>{a4e32cea-80af-4449-b33a-86b1a8d63178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\starwar_system">
+      <UniqueIdentifier>{87fd8f7d-bb26-4f9a-bc7c-6b8cca52f973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\inspect_tour_system">
+      <UniqueIdentifier>{cac6c270-e81d-4032-abec-73897078b6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuSongQing\invite_system">
+      <UniqueIdentifier>{e5cce748-2901-4d11-bb4a-92bf8a9c9e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\space_explore_system">
+      <UniqueIdentifier>{ed5b532f-f8df-4d14-9182-c4e3f2d209a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LiuTuDeng\world_boss_system">
+      <UniqueIdentifier>{d184b223-4163-42e8-80f4-16810b6bcb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua script">
+      <UniqueIdentifier>{86253da7-ccd6-4848-8e8f-75548f04cdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua script\luabridge">
+      <UniqueIdentifier>{868322bd-abe9-4ecd-89b4-1a3f6bf86f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua script\luabridge\detail">
+      <UniqueIdentifier>{b441364e-4a1a-4775-8c33-9f4a2049da3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\barrage">
+      <UniqueIdentifier>{ea88be38-eb4c-4361-ae98-5cadfc676233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\DataHelper">
+      <UniqueIdentifier>{df58d4b3-ba68-4185-bd72-9c60aae6169a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\trade_system">
+      <UniqueIdentifier>{e7b0b84d-fd3d-474c-a1ae-5e0725014217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\level_rank">
+      <UniqueIdentifier>{00a13fac-97e6-4c20-9e20-c5003a8af44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\market_system">
+      <UniqueIdentifier>{d87d205b-bce0-447e-8c6b-fb7c38e4ba90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\secretary_system">
+      <UniqueIdentifier>{f09dc462-1184-4fb4-a40b-ed211f464719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cjson">
+      <UniqueIdentifier>{2d8afbd3-8ab3-42e6-bb91-65b5c4689763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\Caijiawen\activity_system">
+      <UniqueIdentifier>{da0ec8f9-77e5-466b-be2d-ed5b7c1f4f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system\LinJin\paper_system">
+      <UniqueIdentifier>{42466d9b-f049-4e18-8481-4a785598193a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="game_server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="game_handle.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="mongoDB.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="system_response.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="player_data.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="away_skill.cpp">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_pilots.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="war_story.cpp">
+      <Filter>system\LinJin\war_story</Filter>
+    </ClCompile>
+    <ClCompile Include="player_war_story.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="embattle_sys.cpp">
+      <Filter>system\LinJin\embattle_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_embattle.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="pilotManager.cpp">
+      <Filter>system\LinJin\pilot_mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="world_system.cpp">
+      <Filter>system\LinJin\world_system</Filter>
+    </ClCompile>
+    <ClCompile Include="chat_system.cpp">
+      <Filter>system\LinJin\chat_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_levy.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="playerManager.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="item_system.cpp">
+      <Filter>system\LinJin\item_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_item.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="player_base.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="season_system.cpp">
+      <Filter>system\LinJin\season_system</Filter>
+    </ClCompile>
+    <ClCompile Include="playerCD.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="action_instance.cpp">
+      <Filter>system\LinJin\action_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_vip.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="vip_system.cpp">
+      <Filter>system\LiuTuDeng\vip_system</Filter>
+    </ClCompile>
+    <ClCompile Include="office_system.cpp">
+      <Filter>system\LiuTuDeng\office_system</Filter>
+    </ClCompile>
+    <ClCompile Include="params.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="player_workshop.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="action_format.cpp">
+      <Filter>system\LinJin\action_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_campaign.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="junling_system.cpp">
+      <Filter>system\LinJin\junling_system</Filter>
+    </ClCompile>
+    <ClCompile Include="science_system.cpp">
+      <Filter>system\Zhenwei\science</Filter>
+    </ClCompile>
+    <ClCompile Include="player_science.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="player_guild.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="guild_system.cpp">
+      <Filter>system\LinJin\guild_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_study.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="study_system.cpp">
+      <Filter>system\LiuTuDeng\study_system</Filter>
+    </ClCompile>
+    <ClCompile Include="record_system.cpp">
+      <Filter>system\LinJin\record_system</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_def.cpp">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClCompile>
+    <ClCompile Include="workshop_system.cpp">
+      <Filter>system\Zhenwei\workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="player_email.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="email_system.cpp">
+      <Filter>system\LiuTuDeng\email_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_sign.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="player_shop.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="sign_system.cpp">
+      <Filter>system\Caijiawen\sign_system</Filter>
+    </ClCompile>
+    <ClCompile Include="arena_system.cpp">
+      <Filter>system\Caijiawen\arena_system</Filter>
+    </ClCompile>
+    <ClCompile Include="shop_system.cpp">
+      <Filter>system\Caijiawen\shop_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_arena.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="reward.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="player_online_award.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineAwardSys.cpp">
+      <Filter>system\LiuSongQing\onlineaward_system</Filter>
+    </ClCompile>
+    <ClCompile Include="activity_base.cpp">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClCompile>
+    <ClCompile Include="gm_tools.cpp">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClCompile>
+    <ClCompile Include="player_office.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="player_ruler.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="ruler_system.cpp">
+      <Filter>system\Caijiawen\ruler_system</Filter>
+    </ClCompile>
+    <ClCompile Include="ruler_helper.cpp">
+      <Filter>system\Caijiawen\ruler_system</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroInheritanceSys.cpp">
+      <Filter>system\LiuSongQing\hero_inherit_system</Filter>
+    </ClCompile>
+    <ClCompile Include="strategy_system.cpp">
+      <Filter>system\Caijiawen\strategy_system</Filter>
+    </ClCompile>
+    <ClCompile Include="task_system.cpp">
+      <Filter>system\Caijiawen\task_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_task.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="task_helper.cpp">
+      <Filter>system\Caijiawen\task_system</Filter>
+    </ClCompile>
+    <ClCompile Include="mine_resource_system.cpp">
+      <Filter>system\LiuTuDeng\mine_resource_system</Filter>
+    </ClCompile>
+    <ClCompile Include="translate.cpp">
+      <Filter>system\LinJin\translate_system</Filter>
+    </ClCompile>
+    <ClCompile Include="activity_rebate.cpp">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClCompile>
+    <ClCompile Include="player_rebate.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="activity_point.cpp">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClCompile>
+    <ClCompile Include="player_point.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="guild_battle_system.cpp">
+      <Filter>system\LiuTuDeng\guild_battle_system</Filter>
+    </ClCompile>
+    <ClCompile Include="one_to_one.cpp">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClCompile>
+    <ClCompile Include="kingdom_system.cpp">
+      <Filter>system\LinJin\kingdom_system</Filter>
+    </ClCompile>
+    <ClCompile Include="reportShare.cpp">
+      <Filter>system\LinJin\reportShare</Filter>
+    </ClCompile>
+    <ClCompile Include="interplanetary_exploration.cpp">
+      <Filter>system\LiuSongQing\interplanetary_exploration_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_explore.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="explore_manager.cpp">
+      <Filter>system\LiuSongQing\interplanetary_exploration_system</Filter>
+    </ClCompile>
+    <ClCompile Include="activity_game_param.cpp">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClCompile>
+    <ClCompile Include="player_ally.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="ally_system.cpp">
+      <Filter>system\Caijiawen\ally_system</Filter>
+    </ClCompile>
+    <ClCompile Include="activity_gift_defined.cpp">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClCompile>
+    <ClCompile Include="player_gift_defined.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="refresh_tick.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="starwar_helper.cpp">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClCompile>
+    <ClCompile Include="starwar_system.cpp">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_starwar.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="player_crystal_exchange.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="inspect_tour_system.cpp">
+      <Filter>system\LiuTuDeng\inspect_tour_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_inspect_tour.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="starwar_base.cpp">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClCompile>
+    <ClCompile Include="InviteSystem.cpp">
+      <Filter>system\LiuSongQing\invite_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_inviter.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="space_explore_system.cpp">
+      <Filter>system\LiuTuDeng\space_explore_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_space_explore.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="world_boss_system.cpp">
+      <Filter>system\LiuTuDeng\world_boss_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_world_boss.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>lua script</Filter>
+    </ClCompile>
+    <ClCompile Include="timmer.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="player_trade.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="trade_system.cpp">
+      <Filter>system\LinJin\trade_system</Filter>
+    </ClCompile>
+    <ClCompile Include="danmu.cpp">
+      <Filter>system\LinJin\barrage</Filter>
+    </ClCompile>
+    <ClCompile Include="level_rank.cpp">
+      <Filter>system\LinJin\level_rank</Filter>
+    </ClCompile>
+    <ClCompile Include="market_system.cpp">
+      <Filter>system\Caijiawen\market_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_market.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="player_secretary.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="secretary_system.cpp">
+      <Filter>system\Caijiawen\secretary_system</Filter>
+    </ClCompile>
+    <ClCompile Include="secretary_helper.cpp">
+      <Filter>system\Caijiawen\secretary_system</Filter>
+    </ClCompile>
+    <ClCompile Include="starwar_report.cpp">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_extensions.cpp">
+      <Filter>lua script</Filter>
+    </ClCompile>
+    <ClCompile Include="cjson\fpconv.cpp">
+      <Filter>cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="cjson\lua_cjson.cpp">
+      <Filter>cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="cjson\strbuf.cpp">
+      <Filter>cjson</Filter>
+    </ClCompile>
+    <ClCompile Include="player_activity.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="activity_helper.cpp">
+      <Filter>system\Caijiawen\activity_system</Filter>
+    </ClCompile>
+    <ClCompile Include="activity_system.cpp">
+      <Filter>system\Caijiawen\activity_system</Filter>
+    </ClCompile>
+    <ClCompile Include="player_paper.cpp">
+      <Filter>database\playerData</Filter>
+    </ClCompile>
+    <ClCompile Include="paper_system.cpp">
+      <Filter>system\LinJin\paper_system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_handle.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="mongoDB.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="system_response.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="player_data.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="response_def.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_def.h">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="away_skill.h">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="skill_def.h">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="war_story.h">
+      <Filter>system\LinJin\war_story</Filter>
+    </ClInclude>
+    <ClInclude Include="player_pilots.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_war_story.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="embattle_sys.h">
+      <Filter>system\LinJin\embattle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_embattle.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="pilotManager.h">
+      <Filter>system\LinJin\pilot_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="pilot_def.h">
+      <Filter>system\LinJin\pilot_mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="world_system.h">
+      <Filter>system\LinJin\world_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_levy.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_system.h">
+      <Filter>system\LinJin\chat_system</Filter>
+    </ClInclude>
+    <ClInclude Include="item_system.h">
+      <Filter>system\LinJin\item_system</Filter>
+    </ClInclude>
+    <ClInclude Include="action_def.h">
+      <Filter>system\LinJin\action_system</Filter>
+    </ClInclude>
+    <ClInclude Include="playerManager.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="action_format.hpp">
+      <Filter>system\LinJin\action_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_item.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_base.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="season_system.h">
+      <Filter>system\LinJin\season_system</Filter>
+    </ClInclude>
+    <ClInclude Include="playerCD.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="systemBase.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="action_instance.hpp">
+      <Filter>system\LinJin\action_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_vip.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="vip_system.h">
+      <Filter>system\LiuTuDeng\vip_system</Filter>
+    </ClInclude>
+    <ClInclude Include="office_system.h">
+      <Filter>system\LiuTuDeng\office_system</Filter>
+    </ClInclude>
+    <ClInclude Include="params.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="player_workshop.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_campaign.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="junling_system.h">
+      <Filter>system\LinJin\junling_system</Filter>
+    </ClInclude>
+    <ClInclude Include="science_system.h">
+      <Filter>system\Zhenwei\science</Filter>
+    </ClInclude>
+    <ClInclude Include="player_science.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="guild_system.h">
+      <Filter>system\LinJin\guild_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_guild.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_study.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="study_system.h">
+      <Filter>system\LiuTuDeng\study_system</Filter>
+    </ClInclude>
+    <ClInclude Include="game_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="record_system.h">
+      <Filter>system\LinJin\record_system</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_member.h">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="workshop_system.h">
+      <Filter>system\Zhenwei\workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="player_email.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="email_system.h">
+      <Filter>system\LiuTuDeng\email_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_sign.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_shop.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="sign_system.h">
+      <Filter>system\Caijiawen\sign_system</Filter>
+    </ClInclude>
+    <ClInclude Include="arena_system.h">
+      <Filter>system\Caijiawen\arena_system</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_system.h">
+      <Filter>system\Caijiawen\shop_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_arena.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="reward.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="player_online_award.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="OnlineAwardSys.h">
+      <Filter>system\LiuSongQing\onlineaward_system</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_base.h">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClInclude>
+    <ClInclude Include="gm_tools.h">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClInclude>
+    <ClInclude Include="player_office.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_ruler.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="ruler_helper.h">
+      <Filter>system\Caijiawen\ruler_system</Filter>
+    </ClInclude>
+    <ClInclude Include="ruler_system.h">
+      <Filter>system\Caijiawen\ruler_system</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroInheritanceSys.h">
+      <Filter>system\LiuSongQing\hero_inherit_system</Filter>
+    </ClInclude>
+    <ClInclude Include="strategy_system.h">
+      <Filter>system\Caijiawen\strategy_system</Filter>
+    </ClInclude>
+    <ClInclude Include="task_system.h">
+      <Filter>system\Caijiawen\task_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_task.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="task_helper.h">
+      <Filter>system\Caijiawen\task_system</Filter>
+    </ClInclude>
+    <ClInclude Include="mine_resource_system.h">
+      <Filter>system\LiuTuDeng\mine_resource_system</Filter>
+    </ClInclude>
+    <ClInclude Include="translate.h">
+      <Filter>system\LinJin\translate_system</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_rebate.h">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClInclude>
+    <ClInclude Include="player_rebate.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_point.h">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClInclude>
+    <ClInclude Include="player_point.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="guild_battle_system.h">
+      <Filter>system\LiuTuDeng\guild_battle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="core_helper.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="one_to_one.h">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_system.h">
+      <Filter>system\LinJin\battle_system</Filter>
+    </ClInclude>
+    <ClInclude Include="kingdom_system.h">
+      <Filter>system\LinJin\kingdom_system</Filter>
+    </ClInclude>
+    <ClInclude Include="reportShare.h">
+      <Filter>system\LinJin\reportShare</Filter>
+    </ClInclude>
+    <ClInclude Include="interplanetary_exploration.h">
+      <Filter>system\LiuSongQing\interplanetary_exploration_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_explore.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="explore_manager.h">
+      <Filter>system\LiuSongQing\interplanetary_exploration_system</Filter>
+    </ClInclude>
+    <ClInclude Include="game_helper.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_game_param.h">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClInclude>
+    <ClInclude Include="player_ally.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="ally_system.h">
+      <Filter>system\Caijiawen\ally_system</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_gift_defined.h">
+      <Filter>system\LiuTuDeng\gm_tools_relative</Filter>
+    </ClInclude>
+    <ClInclude Include="player_gift_defined.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="refresh_tick.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="starwar_system.h">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClInclude>
+    <ClInclude Include="starwar_helper.h">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_starwar.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_crystal_exchange.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="inspect_tour_system.h">
+      <Filter>system\LiuTuDeng\inspect_tour_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_inspect_tour.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="starwar_base.h">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClInclude>
+    <ClInclude Include="InviteSystem.h">
+      <Filter>system\LiuSongQing\invite_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_inviter.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="space_explore_system.h">
+      <Filter>system\LiuTuDeng\space_explore_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_space_explore.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="world_boss_system.h">
+      <Filter>system\LiuTuDeng\world_boss_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_world_boss.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\LuaBridge.h">
+      <Filter>lua script\luabridge</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\RefCountedObject.h">
+      <Filter>lua script\luabridge</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\RefCountedPtr.h">
+      <Filter>lua script\luabridge</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\CFunctions.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\ClassInfo.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\Constructor.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\dump.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\FuncTraits.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\Iterator.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\LuaException.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\LuaHelpers.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\LuaRef.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\Namespace.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\Stack.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\TypeList.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\TypeTraits.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="luabridge\detail\Userdata.h">
+      <Filter>lua script\luabridge\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="script.hpp">
+      <Filter>lua script</Filter>
+    </ClInclude>
+    <ClInclude Include="timmer.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="danmu.hpp">
+      <Filter>system\LinJin\barrage</Filter>
+    </ClInclude>
+    <ClInclude Include="player_trade.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="DataNotice.hpp">
+      <Filter>system\LinJin\DataHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="trade_system.h">
+      <Filter>system\LinJin\trade_system</Filter>
+    </ClInclude>
+    <ClInclude Include="level_rank.h">
+      <Filter>system\LinJin\level_rank</Filter>
+    </ClInclude>
+    <ClInclude Include="market_system.h">
+      <Filter>system\Caijiawen\market_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_market.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="player_secretary.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="secretary_system.h">
+      <Filter>system\Caijiawen\secretary_system</Filter>
+    </ClInclude>
+    <ClInclude Include="secretary_helper.h">
+      <Filter>system\Caijiawen\secretary_system</Filter>
+    </ClInclude>
+    <ClInclude Include="starwar_report.h">
+      <Filter>system\Caijiawen\starwar_system</Filter>
+    </ClInclude>
+    <ClInclude Include="recorder.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="cjson\fpconv.h">
+      <Filter>cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="cjson\strbuf.h">
+      <Filter>cjson</Filter>
+    </ClInclude>
+    <ClInclude Include="player_activity.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_helper.h">
+      <Filter>system\Caijiawen\activity_system</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_system.h">
+      <Filter>system\Caijiawen\activity_system</Filter>
+    </ClInclude>
+    <ClInclude Include="paper_system.h">
+      <Filter>system\LinJin\paper_system</Filter>
+    </ClInclude>
+    <ClInclude Include="player_paper.h">
+      <Filter>database\playerData</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

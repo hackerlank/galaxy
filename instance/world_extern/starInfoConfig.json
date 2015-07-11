@@ -1,0 +1,62 @@
+[
+    {
+        "starID": 1,
+        "silver": 0,
+        "gold": 1000
+    },
+    {
+        "starID": 2,
+        "silver": 0,
+        "gold": 100
+    },
+    {
+        "starID": 3,
+        "silver": 0,
+        "gold": 0
+    },
+    {
+        "starID": 4,
+        "silver": 0,
+        "gold": 200
+    },
+    {
+        "starID": 5,
+        "silver": 0,
+        "gold": 0
+    },
+    {
+        "starID": 6,
+        "silver": 0,
+        "gold": 300
+    },
+    {
+        "starID": 7,
+        "silver": 0,
+        "gold": 0
+    },
+	{
+        "starID": 8,
+        "silver": 0,
+        "gold": 1000
+    },
+	{
+        "starID": 9,
+        "silver": 0,
+        "gold": 3000
+    },
+	{
+        "starID": 10,
+        "silver": 0,
+        "gold": 2000
+    },
+	{
+        "starID": 11,
+        "silver": 0,
+        "gold": 1500
+    },
+	{
+        "starID": 12,
+        "silver": 0,
+        "gold": 2500
+    }
+]

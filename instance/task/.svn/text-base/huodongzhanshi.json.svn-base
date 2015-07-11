@@ -1,0 +1,123 @@
+[
+    {
+        "id": "9",
+        "des": "精英時間內攻打NPC要塞戰獲得更多科技點",
+        "name": "huodongzhanshi_ysz.png",
+        "time": "開放時間：12:30-14:00  20:00-23:00",
+        "open": 15,
+        "tips": "總督15級開啟要塞戰"
+    },
+    {
+        "id": "12",
+        "des": "每年春夏秋20:00至20:35開啟，參戰可獲得星盟貢獻，領取星盟紅利可獲得大量金幣",
+        "name": "huodongzhanshi_xyzd.png",
+        "time": "開放時間：春夏秋20:00-20:35",
+        "open": 0,
+        "tips": ""
+    },
+    {
+        "id": "11",
+        "des": "春季14:00至21:50開啟，對候選人下注或爭奪元首可獲得金幣獎勵",
+        "name": "huodongzhanshi_yszb.png",
+        "time": "開放時間：春季14:00-21:50",
+        "open": 0,
+        "tips": ""
+    },
+    {
+        "id": "10",
+        "des": "春季22:00結算，競技場爭奪排名可獲得榮譽值、鑽石、金幣等豐富的獎勵",
+        "name": "huodongzhanshi_jjc.png",
+        "time": "結算時間：春季22：00",
+        "open": 0,
+        "tips": ""
+    },
+    {
+        "id": "0",
+        "des": "每年春季和秋季開啟，日常任務獎勵所得到的資源提升%s",
+        "name": "huodongzhanshi_rlwj.png",
+        "time": "開放時間：每年春季和秋季",
+        "open": 0,
+        "tips": ""
+    },
+    {
+        "id": "1",
+        "des": "每年春季和冬季開啟，精英時間內攻打NPC要塞戰科技點增加20%%",
+        "name": "huodongzhanshi_jbqz.png",
+        "time": "開放時間：每年春季和冬季",
+        "open": 15,
+        "tips": "總督15級開啟要塞戰"
+    },
+    {
+        "id": "2",
+        "des": "每年春季和冬季開啟，征戰掉寶率雙倍",
+        "name": "huodongzhanshi_fxgz.png",
+        "time": "開放時間：每年春季和冬季",
+        "open": 0,
+        "tips": ""
+    },
+    {
+        "id": "3",
+        "des": "每年夏季開啟，星盟紅利獲得的金幣提升%s",
+        "name": "huodongzhanshi_cygj.png",
+        "time": "開放時間：每年夏季",
+        "open": 20,
+        "tips": "總督20級開啟星盟"
+    },
+    {
+        "id": "4",
+        "des": "每年夏季和冬季開啟，線上獎勵獲得的資源提升%s",
+        "name": "huodongzhanshi_tdcq.png",
+        "time": "開放時間：每年夏季和冬季",
+        "open": 0,
+        "tips": ""
+    },
+    {
+        "id": "5",
+        "des": "每年夏季開啟，攻打敵對國玩家所獲得的榮譽值將增加%s",
+        "name": "huodongzhanshi_wzhy.png",
+        "time": "開放時間：每年夏季",
+        "open": 0,
+        "tips": ""
+    },
+    {
+        "id": "6",
+        "des": "每年秋季開啟，徵稅所得到的金幣將增加%s，強征也有同樣有效",
+        "name": "huodongzhanshi_gfmq.png",
+        "time": "開放時間：每年秋季",
+        "open": 17,
+        "tips": "總督17級開啟徵稅"
+    },
+    {
+        "id": "7",
+        "des": "每年秋季開啟，礦源爭奪所得到的金幣與榮譽值提升%s",
+        "name": "huodongzhanshi_kyzd.png",
+        "time": "開放時間：每年秋季",
+        "open": 15,
+        "tips": "總督25級開啟礦源爭奪"
+    },
+    {
+        "id": "8",
+        "des": "每年冬季開啟，使用經驗晶片獲得的經驗值加成%s",
+        "name": "huodongzhanshi_tfmj.png",
+        "time": "開放時間：每年冬季",
+        "open": 23,
+        "tips": "總督23級開啟英雄升級"
+    },
+	{
+        "id": "13",
+        "des": "每天晚上20:00-21:00內時空礦場獲得資源加成%s",
+        "name": "huodongzhanshi_kyzd.png",
+        "time": "開放時間：每天晚上20:00-21:00",
+        "open": 20,
+        "tips": "總督20級開啟礦源爭奪"
+    },
+	{
+        "id": "14",
+        "des": "春夏秋20:30-21:00開啟，星際戰場50倍移動速度，100倍補給恢復速度",
+        "name": "huodongzhanshi_qjtj.png",
+        "time": "開放時間：每年春夏秋12:30-14:00  20:00-23:00",
+        "open": 0,
+        "tips": "加入國家後開啟星際戰場"
+   }
+
+]

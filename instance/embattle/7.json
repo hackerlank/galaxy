@@ -1,0 +1,32 @@
+{
+    "rawID": 7,
+	"name":"马其顿方阵",
+    "levelLimit": 51,
+    "holesConfig": [
+        {
+            "holeIndex": 0,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 2,
+            "holeOpen": 5,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 4,
+            "holeOpen": 111,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 6,
+            "holeOpen": 209,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 8,
+            "holeOpen": -1,
+	"levelLimit":0
+        }
+    ]
+}

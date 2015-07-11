@@ -1,0 +1,8 @@
+{
+    "classLogLevelMap": {}, 
+    "fileLogLevel": 1, 
+    "logPathName": "./log/", 
+    "port": 2111, 
+    "screenLogLevel": 1, 
+    "serverName": "filter"
+}

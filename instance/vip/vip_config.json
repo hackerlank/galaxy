@@ -1,0 +1,230 @@
+{
+    "vip_price": [
+        0,
+        100,
+        500,
+        1000,
+        2000,
+        5000,
+        10000,
+        20000,
+        50000,
+        100000,
+        150000,
+        300000,
+        500000
+    ],
+    "first_charge_reward": [
+        {
+            "actionID": 11,
+            "ActiveList": [
+                197
+            ]
+        },
+        {
+            "actionID": 1,
+            "value": 50000
+        },
+        {
+            "actionID": 4,
+            "value": 5000
+        }
+    ],
+    "vip_reward": [
+        [],
+        [
+            {
+                "actionID": 1,
+                "value": 100000
+            },
+            {
+                "actionID": 2,
+                "value": 200
+            },
+			{
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14012
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 120000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14013
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 140000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14018
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 160000
+            },
+            {
+                "actionID": 4,
+                "value": 10000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14028
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 180000
+            },
+            {
+                "actionID": 4,
+                "value": 15000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14014
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 200000
+            },
+            {
+                "actionID": 4,
+                "value": 20000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14029
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 230000
+            },
+            {
+                "actionID": 4,
+                "value": 22000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14019
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 250000
+            },
+            {
+                "actionID": 4,
+                "value": 25000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14005
+            },
+            {
+                "actionID": 10,
+                "value": 5000
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 270000
+            },
+            {
+                "actionID": 4,
+                "value": 28000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14015
+            },
+            {
+                "actionID": 10,
+                "value": 10000
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 350000
+            },
+            {
+                "actionID": 4,
+                "value": 30000
+            },
+            {
+                "actionID": 7,
+                "addNum": 1,
+                "itemID": 14025
+            },
+            {
+                "actionID": 10,
+                "value": 20000
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 450000
+            },
+            {
+                "actionID": 4,
+                "value": 35000
+            },
+            {
+                "actionID": 10,
+                "value": 25000
+            },
+            {
+                "actionID": 11,
+                "ActiveList": [
+                    198
+                ]
+            }
+        ],
+        [
+            {
+                "actionID": 1,
+                "value": 550000
+            },
+            {
+                "actionID": 4,
+                "value": 50000
+            },
+            {
+                "actionID": 10,
+                "value": 30000
+            },
+            {
+                "actionID": 11,
+                "ActiveList": [
+                    199
+                ]
+            }
+        ]
+    ]
+}

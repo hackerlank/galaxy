@@ -1,0 +1,7 @@
+{"skillID":9,
+"canCounter":1,
+"skillDo":[{"target":2,"a1":1,"mainTarget":1,"signTarget":null,"action":[{"breakLevel":3,"runID":1,"include":0,"warModule":0.96,"runRate":null,"lastRound":null,"rateTarget":null,"energy":null,"judgeType":3,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":null,"useEnergy":1,"buffVal":null,"getEnergy":null,"canBlock":null}]}],
+"animId":9,
+"buffId":-1,
+"description":"skill_description_9",
+"name":"skill_name_9"}

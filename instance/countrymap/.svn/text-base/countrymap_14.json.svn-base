@@ -1,0 +1,11 @@
+{"id":14,
+"name":"planet_name_14",
+"type":1,
+"image":1,
+"relationship":[7,8,10,11,16],
+"relationship_type":[0,1,1,1,1],
+"distance":[420,660,480,720,540],
+"effect_tpye":2,
+"gold":900,
+"country_effect":[0.2,0,0],
+"max":85400}

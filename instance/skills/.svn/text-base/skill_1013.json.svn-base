@@ -1,0 +1,7 @@
+{"skillID":1013,
+"canCounter":0,
+"skillDo":[{"target":1005,"a1":0,"mainTarget":0,"signTarget":null,"action":[{"breakLevel":3,"runID":7,"include":0,"warModule":null,"runRate":1.2,"lastRound":null,"rateTarget":null,"energy":34,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":1000,"useEnergy":null,"buffVal":null,"getEnergy":null,"canBlock":null}]},{"target":5,"a1":0,"mainTarget":0,"signTarget":null,"action":[{"breakLevel":3,"runID":7,"include":0,"warModule":null,"runRate":1.2,"lastRound":null,"rateTarget":null,"energy":-5,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":0,"useEnergy":null,"buffVal":null,"getEnergy":null,"canBlock":null}]}],
+"animId":1013,
+"buffId":-1,
+"description":"skill_description_1013",
+"name":"skill_name_1013"}

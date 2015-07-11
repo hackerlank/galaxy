@@ -1,0 +1,11 @@
+{"id":25,
+"name":"planet_name_25",
+"type":1,
+"image":1,
+"relationship":[18,19,21,22,27],
+"relationship_type":[0,1,1,1,1],
+"distance":[420,660,480,720,540],
+"effect_tpye":2,
+"gold":900,
+"country_effect":[0,0.2,0],
+"max":85400}

@@ -1,0 +1,7 @@
+{"skillID":2,
+"canCounter":1,
+"skillDo":[{"target":0,"a1":1,"mainTarget":1,"signTarget":null,"action":[{"breakLevel":3,"runID":1,"include":0,"warModule":0.675,"runRate":null,"lastRound":null,"rateTarget":null,"energy":null,"judgeType":1,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":null,"useEnergy":1,"buffVal":null,"getEnergy":null,"canBlock":null},{"breakLevel":0,"runID":4,"include":0,"warModule":null,"runRate":1.2,"lastRound":1,"rateTarget":null,"energy":null,"judgeType":1,"fixedValue":null,"selfModule":null,"buffID":1,"damageDecay":null,"target":1202,"useEnergy":null,"buffVal":2,"getEnergy":null,"canBlock":null},{"breakLevel":0,"runID":4,"include":0,"warModule":null,"runRate":1.2,"lastRound":1,"rateTarget":null,"energy":null,"judgeType":1,"fixedValue":null,"selfModule":null,"buffID":2,"damageDecay":null,"target":1202,"useEnergy":null,"buffVal":2,"getEnergy":null,"canBlock":null}]}],
+"animId":2,
+"buffId":"Game_buff_3_1",
+"description":"skill_description_2",
+"name":"skill_name_2"}

@@ -1,0 +1,9 @@
+{"itemID":13003,
+"itemType":4,
+"itemModel":13003,
+"itemQuality":0,
+"itemStack":999,
+"itemName":"item_itemName_13003",
+"description":"item_description_13003",
+"merchandise":{"buyPrice":-1,"buyGold":10,"salePrice":-1},
+"itemType2":2}

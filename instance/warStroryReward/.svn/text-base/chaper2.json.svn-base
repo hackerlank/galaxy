@@ -1,0 +1,590 @@
+[
+    {
+        "localID": 1,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":4000
+            },          
+            {
+                "actionID":4,
+                "value":500
+            }
+        ]
+    },
+    {
+        "localID": 101,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":8000
+            },
+            {
+                "actionID":4,
+                "value":500
+            }
+        ]
+    },
+    {
+        "localID": 201,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":12000
+            },
+            {
+                "actionID":4,
+                "value":500
+            },
+			{
+                "actionID": 7,
+                "itemID": 14035,
+                "addNum": 2
+            }
+        ]
+    },
+    {
+        "localID": 301,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":16000
+            },
+            {
+                "actionID":4,
+                "value":500
+            }
+        ]
+    },
+    {
+        "localID": 401,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":20000
+            },
+            {
+                "actionID":4,
+                "value":500
+            },
+			{
+                "actionID": 7,
+                "itemID": 14035,
+                "addNum": 2
+            }
+        ]
+    },
+    {
+        "localID": 501,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":24000
+            },
+            {
+                "actionID":4,
+                "value":500
+            },
+			{
+                "actionID": 7,
+                "itemID": 14035,
+                "addNum": 2
+            }
+        ]
+    },
+    {
+        "localID": 601,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":28000
+            },
+            {
+                "actionID": 7,
+                "itemID": 14017,
+                "addNum": 1
+            },
+			{
+                "actionID": 7,
+                "itemID": 14035,
+                "addNum": 2
+            }
+        ]
+    },
+    {
+        "localID": 701,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":32000
+            },
+            {
+                "actionID": 7,
+                "itemID": 14026,
+                "addNum": 1
+            },
+			{
+                "actionID": 7,
+                "itemID": 14035,
+                "addNum": 2
+            }
+        ]
+    },
+    {
+        "localID": 801,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":36000
+            },
+            {
+                "actionID": 7,
+                "itemID": 14027,
+                "addNum": 1
+            }
+        ]
+    },
+    {
+        "localID": 901,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":40000
+            },
+            {
+                "actionID":4,
+                "value":500
+            }
+        ]
+    },
+    {
+        "localID": 1001,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":44000
+            },
+            {
+                "actionID":4,
+                "value":500
+            }
+        ]
+    },
+    {
+        "localID": 1101,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":48000
+            },
+            {
+                "actionID":4,
+                "value":1000
+            }
+        ]
+    },
+    {
+        "localID": 1201,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":52000
+            },
+            {
+                "actionID":4,
+                "value":1500
+            }
+        ]
+    },
+    {
+        "localID": 1301,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":56000
+            },
+            {
+                "actionID":4,
+                "value":2000
+            }
+        ]
+    },
+    {
+        "localID": 1401,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":60000
+            },
+            {
+                "actionID":4,
+                "value":2500
+            }
+        ]
+    },
+    {
+        "localID": 1501,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":64000
+            },
+            {
+                "actionID":4,
+                "value":3000
+            }
+        ]
+    },
+    {
+        "localID": 1601,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":68000
+            },
+            {
+                "actionID":4,
+                "value":3500
+            }
+        ]
+    },
+    {
+        "localID": 1701,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":72000
+            },
+            {
+                "actionID":4,
+                "value":4000
+            }
+        ]
+    },
+    {
+        "localID": 1801,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":76000
+            },
+            {
+                "actionID":4,
+                "value":4500
+            }
+        ]
+    },
+    {
+        "localID": 1901,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":80000
+            },
+            {
+                "actionID":4,
+                "value":5000
+            }
+        ]
+    },
+    {
+        "localID": 2001,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":84000
+            },
+            {
+                "actionID":4,
+                "value":5500
+            }
+        ]
+    },
+    {
+        "localID": 2101,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":88000
+            },
+            {
+                "actionID":4,
+                "value":6000
+            }
+        ]
+    },
+    {
+        "localID": 2201,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":92000
+            },
+            {
+                "actionID":4,
+                "value":6500
+            }
+        ]
+    },
+    {
+        "localID": 2301,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":96000
+            },
+            {
+                "actionID":4,
+                "value":7000
+            }
+        ]
+    },
+    {
+        "localID": 2401,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":100000
+            },
+            {
+                "actionID":4,
+                "value":7500
+            }
+        ]
+    },
+    {
+        "localID": 2501,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":104000
+            },
+            {
+                "actionID":4,
+                "value":8000
+            }
+        ]
+    },
+    {
+        "localID": 2601,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":108000
+            },
+            {
+                "actionID":4,
+                "value":8500
+            }
+        ]
+    },
+    {
+        "localID": 2701,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":112000
+            },
+            {
+                "actionID":4,
+                "value":9000
+            }
+        ]
+    },
+    {
+        "localID": 2801,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":116000
+            },
+            {
+                "actionID":4,
+                "value":9500
+            }
+        ]
+    },
+    {
+        "localID": 2901,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":120000
+            },
+            {
+                "actionID":4,
+                "value":10000
+            }
+        ]
+    },
+    {
+        "localID": 3001,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":124000
+            },
+            {
+                "actionID":4,
+                "value":10500
+            }
+        ]
+    },
+    {
+        "localID": 3101,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":128000
+            },
+            {
+                "actionID":4,
+                "value":11000
+            }
+        ]
+    },
+    {
+        "localID": 3201,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":132000
+            },
+            {
+                "actionID":4,
+                "value":11500
+            }
+        ]
+    },
+    {
+        "localID": 3301,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":136000
+            },
+            {
+                "actionID":4,
+                "value":12000
+            }
+        ]
+    },
+    {
+        "localID": 3401,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":140000
+            },
+            {
+                "actionID":4,
+                "value":12500
+            }
+        ]
+    },
+    {
+        "localID": 3501,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":144000
+            },
+            {
+                "actionID":4,
+                "value":13000
+            }
+        ]
+    },
+    {
+        "localID": 3601,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":148000
+            },
+            {
+                "actionID":4,
+                "value":13500
+            }
+        ]
+    },
+    {
+        "localID": 3701,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":152000
+            },
+            {
+                "actionID":4,
+                "value":14000
+            }
+        ]
+    },
+    {
+        "localID": 3801,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":156000
+            },
+            {
+                "actionID":4,
+                "value":14500
+            }
+        ]
+    },
+    {
+        "localID": 3901,
+        "starLimit": 35,
+        "action": [
+            {
+                "actionID": 1,
+                "value":160000
+            },
+            {
+                "actionID":4,
+                "value":15000
+            }
+        ]
+    }
+]

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="server">
+      <UniqueIdentifier>{90f389d6-4bc1-4390-b36a-bd1d00ff999f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http_server">
+      <UniqueIdentifier>{591033c4-7071-48be-baa6-2a079f90d120}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="gate_server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="gate_handle.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>http_server</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_manager.cpp">
+      <Filter>http_server</Filter>
+    </ClCompile>
+    <ClCompile Include="http_common.cpp">
+      <Filter>http_server</Filter>
+    </ClCompile>
+    <ClCompile Include="http_server.cpp">
+      <Filter>http_server</Filter>
+    </ClCompile>
+    <ClCompile Include="request_parser.cpp">
+      <Filter>http_server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gate_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="gate_handle.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd_helper.h" />
+    <ClInclude Include="connection.hpp">
+      <Filter>http_server</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_manager.hpp">
+      <Filter>http_server</Filter>
+    </ClInclude>
+    <ClInclude Include="http_common.hpp">
+      <Filter>http_server</Filter>
+    </ClInclude>
+    <ClInclude Include="http_server.hpp">
+      <Filter>http_server</Filter>
+    </ClInclude>
+    <ClInclude Include="request_parser.hpp">
+      <Filter>http_server</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="core_helper.h">
+      <Filter>server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

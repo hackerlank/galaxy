@@ -1,0 +1,32 @@
+{
+    "rawID": 8,
+	"name":"铁甲金盾阵",
+    "levelLimit": 50,
+    "holesConfig": [
+        {
+            "holeIndex": 0,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 2,
+            "holeOpen": 5,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 3,
+            "holeOpen": 111,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 5,
+            "holeOpen": 209,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 7,
+            "holeOpen": -1,
+	"levelLimit":0
+        }
+    ]
+}

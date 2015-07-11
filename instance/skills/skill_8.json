@@ -1,0 +1,7 @@
+{"skillID":8,
+"canCounter":1,
+"skillDo":[{"target":0,"a1":0,"mainTarget":1,"signTarget":null,"action":[{"breakLevel":0,"runID":1,"include":0,"warModule":1,"runRate":null,"lastRound":null,"rateTarget":null,"energy":null,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":null,"useEnergy":1,"buffVal":null,"getEnergy":null,"canBlock":null},{"breakLevel":0,"runID":5,"include":1,"warModule":null,"runRate":null,"lastRound":null,"rateTarget":0,"energy":100,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":1202,"useEnergy":null,"buffVal":null,"getEnergy":null,"canBlock":null}]}],
+"animId":8,
+"buffId":-1,
+"description":"skill_description_8",
+"name":"skill_name_8"}

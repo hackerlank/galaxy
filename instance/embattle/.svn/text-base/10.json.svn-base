@@ -1,0 +1,32 @@
+{
+    "rawID": 10,
+	"name":"凯斯顿梯阵",
+    "levelLimit": 70,
+    "holesConfig": [
+        {
+            "holeIndex": 1,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 2,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 5,
+            "holeOpen": 5,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 6,
+            "holeOpen": 111,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 8,
+            "holeOpen": 209,
+	"levelLimit":0
+        }
+    ]
+}

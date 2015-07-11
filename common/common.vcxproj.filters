@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="json">
+      <UniqueIdentifier>{a242f705-4bd7-41e4-a633-600be595f9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nedmalloc">
+      <UniqueIdentifier>{161b85ff-112b-46cb-adcc-674ecf2697b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{906c0a11-458c-42d2-971d-8e1da0a2240f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{e9d0a31f-476c-429e-9032-923f386625c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nedmalloc\malloc.c.h">
+      <Filter>nedmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="nedmalloc\nedmalloc.h">
+      <Filter>nedmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="commom.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="file_system.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Glog.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="GLogColor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="GLogLevel.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="time_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="service_config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="mineHeader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="json\assertions.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\version.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="nedhelper.hpp">
+      <Filter>nedmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="deal_protocol.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nedmalloc\nedmalloc.cpp">
+      <Filter>nedmalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="commom.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="file_system.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="GLog.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="time_helper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="json\json_internalarray.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\version.h.in">
+      <Filter>json</Filter>
+    </None>
+  </ItemGroup>
+</Project>

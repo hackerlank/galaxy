@@ -1,0 +1,7 @@
+{"skillID":18,
+"canCounter":1,
+"skillDo":[{"target":101,"a1":0,"mainTarget":1,"signTarget":null,"action":[{"breakLevel":3,"runID":1,"include":0,"warModule":0.855,"runRate":null,"lastRound":null,"rateTarget":null,"energy":null,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":null,"useEnergy":1,"buffVal":null,"getEnergy":null,"canBlock":null},{"breakLevel":0,"runID":4,"include":0,"warModule":null,"runRate":1.2,"lastRound":1,"rateTarget":1,"energy":null,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":0,"damageDecay":null,"target":202,"useEnergy":null,"buffVal":1,"getEnergy":null,"canBlock":null}]}],
+"animId":18,
+"buffId":"Game_buff_1_0",
+"description":"skill_description_18",
+"name":"skill_name_18"}

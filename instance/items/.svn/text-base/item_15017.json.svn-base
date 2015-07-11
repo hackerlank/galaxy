@@ -1,0 +1,7 @@
+{"itemID":15017,
+"itemQuality":3,
+"itemStack":99,
+"merchandise":{"buyPrice":-1,
+"buyGold":20,
+"salePrice":-1},
+"consume":[{"actionID":7,"itemID":13009,"addNum":10}]}

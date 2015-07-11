@@ -1,0 +1,10 @@
+{	
+	"silverBase":30000,
+	"oneHuntGoldCost":30,
+	"tenHuntGoldCost":288,
+	"twoTimesCritical":0.18,
+	"fiveTimesCirtical":0.02,
+	"silverProbability":0.5,
+	"equipIDList":[13525,	13534,	13532,	14024,	14033,	14031,	13524,	13533,	13531,	14023,	6001],
+	"equipProbability":[0.015,	0.01,	0.02,	0.001,	0.001,	0.001,	0.067,	0.045,	0.09,	0.1,	0.15]
+}	

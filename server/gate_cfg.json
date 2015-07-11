@@ -1,0 +1,27 @@
+{
+    "account_ip": "10.21.210.120", 
+    "account_port": "2101", 
+    "classLogLevelMap": {
+        "na": 2
+    }, 
+    "client_limit": 1000, 
+    "client_size": 160, 
+    "fileLogLevel": 1, 
+    "filter_ip": "127.0.0.1", 
+    "filter_port": "2111", 
+    "game_ip": "127.0.0.1", 
+    "game_port": "2109", 
+    "gm_tool_ip": [
+        "10.21.210.120", 
+        "10.20.202.233", 
+        "183.232.42.132", 
+        "10.20.201.122",
+        "10.20.202.121"
+    ], 
+    "http_port": "2308", 
+    "logPathName": "./log/", 
+    "package_size": 8192, 
+    "port": 2118, 
+    "screenLogLevel": 1, 
+    "serverName": "gate"
+}

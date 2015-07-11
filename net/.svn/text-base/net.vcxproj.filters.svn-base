@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="server">
+      <UniqueIdentifier>{1029a50d-3029-48fb-a3b5-ddf55508b2ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="msg_server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_session.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server_base_direct.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="net_creator.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_base.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="msg_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="net_handler.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="read_buffer.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="swap_buffer.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_session.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server_base_direct.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="net_creator.h">
+      <Filter>server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

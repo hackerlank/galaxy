@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="db_server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handle.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlManager.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="server">
+      <UniqueIdentifier>{c87cb20d-e324-4729-88ef-761a79c9fe98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{76b56732-de21-4a14-b4ce-0e2aed95f6b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="db_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="db_handle.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlManager.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="core_helper.h">
+      <Filter>server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

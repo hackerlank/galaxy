@@ -1,0 +1,9 @@
+{
+    "days": 30,
+    "reward": 100,
+	"accumulate": true
+}
+
+/*
+"accumulate": true-月卡天数累积, false-月卡天数替换
+*/

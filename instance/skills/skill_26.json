@@ -1,0 +1,7 @@
+{"skillID":26,
+"canCounter":1,
+"skillDo":[{"target":1,"a1":1,"mainTarget":1,"signTarget":null,"action":[{"breakLevel":0,"runID":1,"include":0,"warModule":0.705,"runRate":null,"lastRound":null,"rateTarget":null,"energy":null,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":null,"useEnergy":1,"buffVal":null,"getEnergy":null,"canBlock":null},{"breakLevel":0,"runID":5,"include":1,"warModule":null,"runRate":null,"lastRound":null,"rateTarget":0,"energy":75,"judgeType":0,"fixedValue":null,"selfModule":null,"buffID":null,"damageDecay":null,"target":null,"useEnergy":null,"buffVal":null,"getEnergy":null,"canBlock":null}]}],
+"animId":1,
+"buffId":-1,
+"description":"skill_description_26",
+"name":"skill_name_26"}

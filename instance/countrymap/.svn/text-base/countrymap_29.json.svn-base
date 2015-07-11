@@ -1,0 +1,11 @@
+{"id":29,
+"name":"planet_name_29",
+"type":0,
+"image":0,
+"relationship":[30,31,32,36,37],
+"relationship_type":[1,1,1,1,1],
+"distance":[720,720,480,420,420],
+"effect_tpye":3,
+"gold":1920,
+"country_effect":[0,0,1200],
+"max":39900}

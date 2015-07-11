@@ -1,0 +1,14 @@
+{
+    "classLogLevelMap": {}, 
+    "client_limit": 1, 
+    "fileLogLevel": 1, 
+    "logPathName": "./log/", 
+    "mongodb": "127.0.0.1:27017", 
+    "package_size": 819200, 
+    "port": 2109, 
+    "screenLogLevel": 1, 
+    "server": "127.0.0.1", 
+    "serverName": "game", 
+    "sql_ip": "127.0.0.1", 
+    "sql_port": "2110"
+}

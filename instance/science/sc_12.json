@@ -1,0 +1,10 @@
+{"id":12,
+"comeOutLevel":35,
+"maxLevel":20,
+"updateLevel":5,
+"cost":[65,130,195,260,494,598,845,988,1742,2145,3705,4355,5915,6565,7423,7826,10192,13000,16250,19500],
+"order":12,
+"name":"science_name_12",
+"description":"science_description_12",
+"zhenxing":6,
+"effect":[[14,0.012],[16,0.012]]}

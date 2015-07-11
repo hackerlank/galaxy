@@ -1,0 +1,11 @@
+{"id":7,
+"name":"planet_name_7",
+"type":0,
+"image":0,
+"relationship":[8,9,10,14,15],
+"relationship_type":[1,1,1,1,1],
+"distance":[720,720,480,420,420],
+"effect_tpye":3,
+"gold":1920,
+"country_effect":[1200,0,0],
+"max":39900}

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DEBUG_NOLOG|Win32">
+      <Configuration>DEBUG_NOLOG</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C787498C-98FE-4F2C-93E8-3283E4510DBD}</ProjectGuid>
+    <RootNamespace>game</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_NOLOG|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_NOLOG|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\bin\</OutDir>
+    <IncludePath>..\inc\boostUSE;..\net;..\common;..\inc\aposto-mongodb;..\game_def;C:\Program Files %28x86%29\Lua\5.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\lib;..\lib\aposto-mongodb\Debug;C:\Program Files %28x86%29\Lua\5.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_NOLOG|Win32'">
+    <OutDir>..\binNOLOG\</OutDir>
+    <IncludePath>..\inc\boost_1_47_0;..\net;..\common;..\inc\aposto-mongodb;..\game_def;$(IncludePath)</IncludePath>
+    <LibraryPath>..\lib;..\lib\aposto-mongodb\Debug;$(LibraryPath)</LibraryPath>
+    <IntDir>$(Configuration)NOLOG\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>..\lib;..\lib\aposto-mongodb\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\inc\boost_1_47_0;..\net;..\common;..\inc\aposto-mongodb;..\game_def;$(IncludePath)</IncludePath>
+    <OutDir>..\binRL\</OutDir>
+    <IntDir>$(Configuration)RL\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;DEBUG;_WIN_LOG_;_WIN_UTF8_;DEBUG_INFO;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>common.lib;net.lib;MongoDrv.lib;zlib.lib;lua5.1.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_NOLOG|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN_LOG_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>common.lib;net.lib;MongoDrv.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>common.lib;net.lib;MongoDrv.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="action_format.cpp" />
+    <ClCompile Include="action_instance.cpp" />
+    <ClCompile Include="activity_base.cpp" />
+    <ClCompile Include="activity_game_param.cpp" />
+    <ClCompile Include="activity_helper.cpp" />
+    <ClCompile Include="activity_point.cpp" />
+    <ClCompile Include="activity_rebate.cpp" />
+    <ClCompile Include="activity_gift_defined.cpp" />
+    <ClCompile Include="activity_system.cpp" />
+    <ClCompile Include="ally_system.cpp" />
+    <ClCompile Include="arena_system.cpp" />
+    <ClCompile Include="cjson\fpconv.cpp" />
+    <ClCompile Include="cjson\lua_cjson.cpp" />
+    <ClCompile Include="cjson\strbuf.cpp" />
+    <ClCompile Include="danmu.cpp" />
+    <ClCompile Include="explore_manager.cpp" />
+    <ClCompile Include="inspect_tour_system.cpp" />
+    <ClCompile Include="interplanetary_exploration.cpp" />
+    <ClCompile Include="kingdom_system.cpp" />
+    <ClCompile Include="level_rank.cpp" />
+    <ClCompile Include="lua_extensions.cpp" />
+    <ClCompile Include="market_system.cpp" />
+    <ClCompile Include="one_to_one.cpp" />
+    <ClCompile Include="away_skill.cpp" />
+    <ClCompile Include="battle_def.cpp" />
+    <ClCompile Include="chat_system.cpp" />
+    <ClCompile Include="email_system.cpp" />
+    <ClCompile Include="embattle_sys.cpp" />
+    <ClCompile Include="game_handle.cpp" />
+    <ClCompile Include="game_server.cpp" />
+    <ClCompile Include="gm_tools.cpp" />
+    <ClCompile Include="guild_battle_system.cpp" />
+    <ClCompile Include="guild_system.cpp" />
+    <ClCompile Include="helper.cpp" />
+    <ClCompile Include="HeroInheritanceSys.cpp" />
+    <ClCompile Include="item_system.cpp" />
+    <ClCompile Include="junling_system.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mine_resource_system.cpp" />
+    <ClCompile Include="mongoDB.cpp" />
+    <ClCompile Include="office_system.cpp" />
+    <ClCompile Include="OnlineAwardSys.cpp" />
+    <ClCompile Include="paper_system.cpp" />
+    <ClCompile Include="params.cpp" />
+    <ClCompile Include="pilotManager.cpp" />
+    <ClCompile Include="playerCD.cpp" />
+    <ClCompile Include="playerManager.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="player_activity.cpp" />
+    <ClCompile Include="player_ally.cpp" />
+    <ClCompile Include="player_arena.cpp" />
+    <ClCompile Include="player_base.cpp" />
+    <ClCompile Include="player_campaign.cpp" />
+    <ClCompile Include="player_inviter.cpp" />
+    <ClCompile Include="player_market.cpp" />
+    <ClCompile Include="player_paper.cpp" />
+    <ClCompile Include="player_secretary.cpp" />
+    <ClCompile Include="player_starwar.cpp" />
+    <ClCompile Include="player_crystal_exchange.cpp" />
+    <ClCompile Include="player_inspect_tour.cpp" />
+    <ClCompile Include="InviteSystem.cpp" />
+    <ClCompile Include="player_space_explore.cpp" />
+    <ClCompile Include="player_trade.cpp" />
+    <ClCompile Include="player_world_boss.cpp" />
+    <ClCompile Include="refresh_tick.cpp" />
+    <ClCompile Include="player_data.cpp" />
+    <ClCompile Include="player_email.cpp" />
+    <ClCompile Include="player_embattle.cpp" />
+    <ClCompile Include="player_explore.cpp" />
+    <ClCompile Include="player_gift_defined.cpp" />
+    <ClCompile Include="player_guild.cpp" />
+    <ClCompile Include="player_item.cpp" />
+    <ClCompile Include="player_levy.cpp" />
+    <ClCompile Include="player_office.cpp" />
+    <ClCompile Include="player_online_award.cpp" />
+    <ClCompile Include="player_pilots.cpp" />
+    <ClCompile Include="player_point.cpp" />
+    <ClCompile Include="player_rebate.cpp" />
+    <ClCompile Include="player_ruler.cpp" />
+    <ClCompile Include="player_science.cpp" />
+    <ClCompile Include="player_shop.cpp" />
+    <ClCompile Include="player_sign.cpp" />
+    <ClCompile Include="player_study.cpp" />
+    <ClCompile Include="player_task.cpp" />
+    <ClCompile Include="player_vip.cpp" />
+    <ClCompile Include="player_war_story.cpp" />
+    <ClCompile Include="player_workshop.cpp" />
+    <ClCompile Include="record_system.cpp" />
+    <ClCompile Include="reportShare.cpp" />
+    <ClCompile Include="reward.cpp" />
+    <ClCompile Include="ruler_helper.cpp" />
+    <ClCompile Include="ruler_system.cpp" />
+    <ClCompile Include="science_system.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="season_system.cpp" />
+    <ClCompile Include="secretary_helper.cpp" />
+    <ClCompile Include="secretary_system.cpp" />
+    <ClCompile Include="shop_system.cpp" />
+    <ClCompile Include="sign_system.cpp" />
+    <ClCompile Include="starwar_helper.cpp" />
+    <ClCompile Include="starwar_report.cpp" />
+    <ClCompile Include="starwar_system.cpp" />
+    <ClCompile Include="strategy_system.cpp" />
+    <ClCompile Include="study_system.cpp" />
+    <ClCompile Include="system_response.cpp" />
+    <ClCompile Include="task_helper.cpp" />
+    <ClCompile Include="task_system.cpp" />
+    <ClCompile Include="timmer.cpp" />
+    <ClCompile Include="trade_system.cpp" />
+    <ClCompile Include="translate.cpp" />
+    <ClCompile Include="starwar_base.cpp" />
+    <ClCompile Include="space_explore_system.cpp" />
+    <ClCompile Include="vip_system.cpp" />
+    <ClCompile Include="war_story.cpp" />
+    <ClCompile Include="workshop_system.cpp" />
+    <ClCompile Include="world_boss_system.cpp" />
+    <ClCompile Include="world_system.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="action_format.hpp" />
+    <ClInclude Include="action_instance.hpp" />
+    <ClInclude Include="activity_base.h" />
+    <ClInclude Include="activity_game_param.h" />
+    <ClInclude Include="activity_helper.h" />
+    <ClInclude Include="activity_point.h" />
+    <ClInclude Include="activity_rebate.h" />
+    <ClInclude Include="activity_gift_defined.h" />
+    <ClInclude Include="activity_system.h" />
+    <ClInclude Include="ally_system.h" />
+    <ClInclude Include="arena_system.h" />
+    <ClInclude Include="battle_system.h" />
+    <ClInclude Include="cjson\fpconv.h" />
+    <ClInclude Include="cjson\strbuf.h" />
+    <ClInclude Include="market_system.h" />
+    <ClInclude Include="danmu.hpp" />
+    <ClInclude Include="DataNotice.hpp" />
+    <ClInclude Include="level_rank.h" />
+    <ClInclude Include="luabridge\detail\CFunctions.h" />
+    <ClInclude Include="luabridge\detail\ClassInfo.h" />
+    <ClInclude Include="luabridge\detail\Constructor.h" />
+    <ClInclude Include="luabridge\detail\dump.h" />
+    <ClInclude Include="luabridge\detail\FuncTraits.h" />
+    <ClInclude Include="luabridge\detail\Iterator.h" />
+    <ClInclude Include="luabridge\detail\LuaException.h" />
+    <ClInclude Include="luabridge\detail\LuaHelpers.h" />
+    <ClInclude Include="luabridge\detail\LuaRef.h" />
+    <ClInclude Include="luabridge\detail\Namespace.h" />
+    <ClInclude Include="luabridge\detail\Stack.h" />
+    <ClInclude Include="luabridge\detail\TypeList.h" />
+    <ClInclude Include="luabridge\detail\TypeTraits.h" />
+    <ClInclude Include="luabridge\detail\Userdata.h" />
+    <ClInclude Include="luabridge\LuaBridge.h" />
+    <ClInclude Include="luabridge\RefCountedObject.h" />
+    <ClInclude Include="luabridge\RefCountedPtr.h" />
+    <ClInclude Include="player_activity.h" />
+    <ClInclude Include="paper_system.h" />
+    <ClInclude Include="player_inviter.h" />
+    <ClInclude Include="player_market.h" />
+    <ClInclude Include="player_paper.h" />
+    <ClInclude Include="player_secretary.h" />
+    <ClInclude Include="player_starwar.h" />
+    <ClInclude Include="InviteSystem.h" />
+    <ClInclude Include="player_space_explore.h" />
+    <ClInclude Include="player_trade.h" />
+    <ClInclude Include="player_world_boss.h" />
+    <ClInclude Include="recorder.hpp" />
+    <ClInclude Include="script.hpp" />
+    <ClInclude Include="secretary_helper.h" />
+    <ClInclude Include="secretary_system.h" />
+    <ClInclude Include="starwar_helper.h" />
+    <ClInclude Include="starwar_report.h" />
+    <ClInclude Include="starwar_system.h" />
+    <ClInclude Include="explore_manager.h" />
+    <ClInclude Include="game_helper.hpp" />
+    <ClInclude Include="inspect_tour_system.h" />
+    <ClInclude Include="interplanetary_exploration.h" />
+    <ClInclude Include="kingdom_system.h" />
+    <ClInclude Include="one_to_one.h" />
+    <ClInclude Include="battle_def.h" />
+    <ClInclude Include="battle_member.h" />
+    <ClInclude Include="chat_system.h" />
+    <ClInclude Include="core_helper.h" />
+    <ClInclude Include="email_system.h" />
+    <ClInclude Include="embattle_sys.h" />
+    <ClInclude Include="action_def.h" />
+    <ClInclude Include="game_server.h" />
+    <ClInclude Include="gm_tools.h" />
+    <ClInclude Include="guild_battle_system.h" />
+    <ClInclude Include="guild_system.h" />
+    <ClInclude Include="HeroInheritanceSys.h" />
+    <ClInclude Include="item_system.h" />
+    <ClInclude Include="junling_system.h" />
+    <ClInclude Include="mine_resource_system.h" />
+    <ClInclude Include="office_system.h" />
+    <ClInclude Include="OnlineAwardSys.h" />
+    <ClInclude Include="params.hpp" />
+    <ClInclude Include="pilot_def.h" />
+    <ClInclude Include="playerCD.h" />
+    <ClInclude Include="player_ally.h" />
+    <ClInclude Include="player_arena.h" />
+    <ClInclude Include="player_campaign.h" />
+    <ClInclude Include="player_crystal_exchange.h" />
+    <ClInclude Include="player_inspect_tour.h" />
+    <ClInclude Include="refresh_tick.h" />
+    <ClInclude Include="player_email.h" />
+    <ClInclude Include="player_embattle.h" />
+    <ClInclude Include="player_explore.h" />
+    <ClInclude Include="player_gift_defined.h" />
+    <ClInclude Include="player_guild.h" />
+    <ClInclude Include="player_item.h" />
+    <ClInclude Include="player_levy.h" />
+    <ClInclude Include="player_office.h" />
+    <ClInclude Include="player_online_award.h" />
+    <ClInclude Include="player_pilots.h" />
+    <ClInclude Include="player_point.h" />
+    <ClInclude Include="player_rebate.h" />
+    <ClInclude Include="player_ruler.h" />
+    <ClInclude Include="player_science.h" />
+    <ClInclude Include="player_shop.h" />
+    <ClInclude Include="player_sign.h" />
+    <ClInclude Include="player_study.h" />
+    <ClInclude Include="player_task.h" />
+    <ClInclude Include="player_vip.h" />
+    <ClInclude Include="player_war_story.h" />
+    <ClInclude Include="player_workshop.h" />
+    <ClInclude Include="record_system.h" />
+    <ClInclude Include="reportShare.h" />
+    <ClInclude Include="response_def.h" />
+    <ClInclude Include="player_data.h" />
+    <ClInclude Include="game_handle.h" />
+    <ClInclude Include="helper.h" />
+    <ClInclude Include="mongoDB.h" />
+    <ClInclude Include="pilotManager.h" />
+    <ClInclude Include="playerManager.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="player_base.h" />
+    <ClInclude Include="away_skill.h" />
+    <ClInclude Include="reward.h" />
+    <ClInclude Include="ruler_helper.h" />
+    <ClInclude Include="ruler_system.h" />
+    <ClInclude Include="science_system.h" />
+    <ClInclude Include="season_system.h" />
+    <ClInclude Include="shop_system.h" />
+    <ClInclude Include="sign_system.h" />
+    <ClInclude Include="skill_def.h" />
+    <ClInclude Include="strategy_system.h" />
+    <ClInclude Include="study_system.h" />
+    <ClInclude Include="systemBase.h" />
+    <ClInclude Include="system_response.h" />
+    <ClInclude Include="task_helper.h" />
+    <ClInclude Include="task_system.h" />
+    <ClInclude Include="timmer.hpp" />
+    <ClInclude Include="trade_system.h" />
+    <ClInclude Include="translate.h" />
+    <ClInclude Include="starwar_base.h" />
+    <ClInclude Include="space_explore_system.h" />
+    <ClInclude Include="vip_system.h" />
+    <ClInclude Include="war_story.h" />
+    <ClInclude Include="workshop_system.h" />
+    <ClInclude Include="world_boss_system.h" />
+    <ClInclude Include="world_system.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

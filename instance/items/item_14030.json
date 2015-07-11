@@ -1,0 +1,8 @@
+{"itemID":14030,
+"itemQuality":5,
+"itemStack":99,
+"disintegrator":{"criGoldCost":300,"actionV":[{"actionID":7,"itemID":13535,"addNum":60}]},
+"material":{"useLevel":1},
+"merchandise":{"buyPrice":-1,
+"buyGold":-1,
+"salePrice":7500}}

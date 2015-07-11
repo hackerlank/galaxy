@@ -1,0 +1,11 @@
+{"id":38,
+"name":"planet_name_38",
+"type":1,
+"image":1,
+"relationship":[36,33,34,2],
+"relationship_type":[1,1,1,1],
+"distance":[540,420,480,1500],
+"effect_tpye":1,
+"gold":900,
+"country_effect":[0.05,0.05,0.1],
+"max":13500}

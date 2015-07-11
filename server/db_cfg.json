@@ -1,0 +1,13 @@
+{
+    "addressOfMysql": "127.0.0.1", 
+    "classLogLevelMap": {}, 
+    "client_limit": 1, 
+    "fileLogLevel": 1, 
+    "logPathName": "./log/", 
+    "mysqlDbName": "test", 
+    "mysqlPw": "", 
+    "mysqlUser": "mysql", 
+    "port": 2110, 
+    "screenLogLevel": 1, 
+    "serverName": "dbsvr"
+}

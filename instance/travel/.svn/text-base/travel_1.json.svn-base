@@ -1,0 +1,10 @@
+{"id":1,
+"model":1,
+"cost":10000,
+"canComeMerchantId":2,
+"canComeMerchantRate":0.25,
+"canGetEquipmentRawIds":[14011,14012,14013],
+"canGetEquipmentRates":[0.66,0.24,0.1],
+"isPermanent":false,
+"name":"travel_name_1",
+"description":"travel_description_1"}

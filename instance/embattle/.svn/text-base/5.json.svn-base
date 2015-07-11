@@ -1,0 +1,32 @@
+{
+    "rawID": 5,
+	"name":"楔形突击阵",
+    "levelLimit": 38,
+    "holesConfig": [
+        {
+            "holeIndex": 1,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 3,
+            "holeOpen": 5,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 5,
+            "holeOpen": -1,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 6,
+            "holeOpen": 111,
+	"levelLimit":0
+        },
+        {
+            "holeIndex": 8,
+            "holeOpen": 209,
+	"levelLimit":0
+        }
+    ]
+}
